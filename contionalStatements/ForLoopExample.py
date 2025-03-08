@@ -14,3 +14,7 @@ for i in range(0, 10):
     if i%2==0:
         continue
     print(i)
+
+for i in range(3):
+    for j in range(3):
+        print(f"i: {i}, j: {j}")
